@@ -20,3 +20,11 @@ def home():
 # If we're running in stand alone mode, run the application
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=True)
+
+
+# http://localhost:5000/api/people
+# http://0.0.0.0:5000/
+# http://localhost:5000/api/ui/
+# export FLASK_APP=flaskapp2
+# export FLASK_APP=server.py
+# python3 server.py
