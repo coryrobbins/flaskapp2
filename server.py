@@ -1,3 +1,6 @@
+
+
+
 from flask import render_template
 import connexion
 
@@ -25,6 +28,7 @@ if __name__ == '__main__':
 # http://localhost:5000/api/people
 # http://0.0.0.0:5000/
 # http://localhost:5000/api/ui/
+# http://localhost:5000/api/people
 # export FLASK_APP=flaskapp2
 # export FLASK_APP=server.py
 # python3 server.py
